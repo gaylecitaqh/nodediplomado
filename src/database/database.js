@@ -18,7 +18,7 @@ const sequelize = new Sequelize(
         dialect: process.env.DB_DIALECT,//'postgres',
         logging: console.log,
 
-        // este cambio es sòlo para subir no para local
+        // este cambio es sólo para subir no para local
         dialectOptions:{
             ssl:{
                 require: true,
