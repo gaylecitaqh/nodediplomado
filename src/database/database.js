@@ -19,12 +19,12 @@ const sequelize = new Sequelize(
         logging: console.log,
 
         // este cambio es sólo para subir no para local
-       /* dialectOptions:{
+        dialectOptions:{
             ssl:{
                 require: true,
                 rejectUnauthorized: false,
             }
-        }*/
+        }
     }
 );
 
