@@ -19,6 +19,6 @@ app.use(express.json()); // PARA EL POST
 //RUTAS
 app.use('/api/login', authRoutes);
 app.use('/api/users',usersRoutes);
-app.use('/api/tasks', authenticateToken,tasksRoutes);
+app.use('/api/tasks',authenticateToken,tasksRoutes);
 
 export default app;

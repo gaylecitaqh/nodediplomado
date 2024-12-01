@@ -25,5 +25,16 @@
   },
   "devDependencies": {
     "nodemon": "^3.1.7"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaylecitaqh/nodediplomado.git"
+  },
+  "keywords": [
+    "nodefinal"
+  ],
+  "bugs": {
+    "url": "https://github.com/gaylecitaqh/nodediplomado/issues"
+  },
+  "homepage": "https://github.com/gaylecitaqh/nodediplomado#readme"
 }
