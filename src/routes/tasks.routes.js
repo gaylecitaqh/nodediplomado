@@ -7,14 +7,15 @@ const router = Router();
 //import { authenticateToken } from '../middlewares/authenticate.middleware.js';
 
 
-router.route('/')
-.get(tasksController.getTasks)
-.post(tasksController.createTask);
+router
+    .route('/')
+    .get(tasksController.getTasks)
+    .post(tasksController.createTask);
 
 
 router
     .route('/:id')
-    .get(tasksController.getTasks)
+    .get(tasksController.getTask)
     .put(tasksController.updateTask)
     .delete(tasksController.deleteTask)
     .patch(tasksController.taskDone);
