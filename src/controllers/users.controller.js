@@ -141,7 +141,7 @@ async function getTasks(req, res){
             attributes:['username'],
             include: [{
                 model: Task,
-                attribute:['name', 'done'],
+                attributes:['name', 'done'],
                /* where: {
                     done: false
                 }*/
